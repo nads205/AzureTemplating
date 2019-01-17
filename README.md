@@ -1,0 +1,2 @@
+# AzureTemplating
+AzureTemplatingDemo
