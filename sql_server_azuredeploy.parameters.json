@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sqlServerPrimaryName": {
+      "value": "prs-sql-01"
+    },
+    "sqlServerPrimaryAdminUsername": {
+      "value": "Admin1234"
+    },
+    "sqlServerPrimaryAdminPassword": {
+      "value": "lMgE2W!zkZiy"
+    },
+    "sqlServerSecondaryName": {
+      "value": "prs-sql-02"
+    },
+    "sqlServerSecondaryRegion": {
+      "value": "westeurope"
+    },
+    "sqlServerSecondaryAdminUsername": {
+      "value": "Admin1234"
+    },
+    "sqlServerSecondaryAdminPassword": {
+      "value": "lMgE2W!zkZiy"
+    },
+    "sqlFailoverGroupName": {
+      "value": "prsfailovergroup"
+    }
+  }
+}
