@@ -1,7 +1,12 @@
 # AzureTemplating
 AzureTemplatingDemo
 
-sql_server_azuredeploy - creates two SQL servers with failover
+I took a few examples from https://github.com/Azure/azure-quickstart-templates and tweaked them:
+
+I didn't configure everything on the same network exactly as requested using the Azure KeyVault.
+
+1. sql_server_azuredeploy.json - creates two SQL servers with failover
+2. vm_win_jumpbox.json - deployment of a VM Scale Set of Windows VMs with a jumpbox
 
 Todo:
 
